@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Aid & Emergency Bot</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="chatbot-container">
+        <div id="chatbot">
+            <div class="chat-header">
+                <h3>🚑 First Aid Bot</h3>
+                <div class="lang-selector">
+                    <button id="lang-en" class="active">English</button>
+                    <button id="lang-ta">தமிழ் (Tanglish)</button>
+                </div>
+            </div>
+            <div id="chat-body">
+                </div>
+            <div class="chat-footer">
+                <input type="text" id="user-input" placeholder="Type a message...">
+                <button id="send-btn">Send</button>
+            </div>
+        </div>
+        <button id="hospital-btn">🏥 Find Nearest Hospital</button>
+    </div>
+
+    <script src="medic.js"></script>
+</body>
+</html>
